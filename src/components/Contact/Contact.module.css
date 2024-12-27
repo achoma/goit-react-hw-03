@@ -1,0 +1,21 @@
+.contactItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  border: 1.5px solid black;
+  padding: 12px;
+  flex-shrink: 0;
+  flex-basis: 280px;
+}
+
+.contactBox {
+  display: grid;
+}
+
+.contactContext {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+}
